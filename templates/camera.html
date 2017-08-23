@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="generator" content="Responsive Site Designer 2.5.2309 - Trial Version">
+  <title>Vehicle Classification</title>
+  <link rel="stylesheet" href="css/bootstrap4.min.css">
+  <link rel="stylesheet" href="css/wireframe-theme.min.css">
+  <script>document.createElement( "picture" );</script>
+  <script src="js/picturefill.min.js" class="picturefill" async="async"></script>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cagliostro%7CQuicksand:300">
+</head>
+
+<body>
+  <header class="row header-row" id="home">
+    <div class="col-xs-12 nav-column">
+      <nav class="container-fluid btn-group nav-container"><a class="glyph btn btn-secondary dropdown-toggle" href="#" id="dropdownmenulink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="coffeecup-icons-menu7"></i></a>
+        <nav class="container-fluid dropdown-menu dropdown-menu-right nav-top-space" aria-labelledby="dropdownmenulink">
+          <a class="link-text dropdown-item" href="index.html">Home</a>
+        </nav>
+      </nav>
+      <nav class="container-fluid btn-group nav-container">
+        <nav class="container-fluid dropdown-menu dropdown-menu-right nav-top-space" aria-labelledby="dropdownmenulink">
+          <a class="link-text dropdown-item" href="index.html">Home</a>
+          <a class="link-text dropdown-item" href="about.html">About</a>
+          <a class="link-text dropdown-item" href="services.html">Services</a>
+        </nav>
+      </nav>
+    </div>
+    <div class="col-xs-12 column-1"></div>
+  </header>
+  <footer class="row footer-row">
+    <div class="col-xs-12 footer-column">
+      <footer class="container-fluid"></footer>
+    </div>
+  </footer>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/outofview.js"></script>
+  <script src="js/tether.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+<script>
+$(function() {
+$('a[href*=#]:not([href=#])').click(function() {
+if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+var target = $(this.hash);
+target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+if (target.length) {
+$('html,body').animate({
+scrollTop: target.offset().top
+}, 1000);
+return false;
+}
+}
+});
+});
+</script>
+</body>
+
+</html>
